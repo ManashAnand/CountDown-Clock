@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown Clock</title>
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&family=Shadows+Into+Light&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <nav id="navbar"> 
+        <div id="sec"   class="same" data-value="20">20 secs</div>
+        <div id="works" class="same" data-value="300">5'' works</div>
+        <div id="quick" class="same" data-value="900">15'' Quick</div>
+        <div id="snack" class="same" data-value="1200">20'' Snack</div>
+        <div id="lunch" class="same" data-value="3600">1' Lunch</div>
+        <form name="customForm">
+            <input type="text" name="textInForm" id="formInput" placeholder="Enter time in minutes">
+        </form>
+    </nav>
+
+    <div id="container">
+     
+        <div id="remainTime">    00 :    00      </div>
+        <div id="atTime">Come Back at 0:0</div>
+    </div>
+
+
+    <script src="brain.js"></script>
+</body>
+</html>

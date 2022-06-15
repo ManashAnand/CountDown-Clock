@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        background-color: #4ca;
+
+}
+#navbar{
+    
+    background-color: rgb(12, 244, 178);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 2.5rem;
+    color: white;
+    
+}
+.same{
+    border: 1px solid;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Titan One', cursive;
+}
+#formInput{
+    border: 1px solid;
+    height: 2.6rem;
+    background-color: rgb(12, 244, 178);
+    text-align: center;
+    color: RED;
+    font-family: 'Monoton', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Titan One', cursive;
+}
+#formInput:active{
+    background-color: #4ca;
+    color: red;
+    border: white;
+}
+
+.same:hover{
+    color: RED;
+    text-shadow: 0.2px 0.2px 0.9px black;
+}
+#lunch{
+    background-color: rgb(33, 242, 172);
+}
+
+#container{
+    border: 2px solid;
+    height: 100vh;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #4ca;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #4ca;
+    border-top: white;
+}
+#remainTime{
+    display: flex;
+    font-size: 8rem;
+    margin: 1rem;
+    text-shadow: 2px 2px 4px black;
+}
+#atTime{
+    font-family: 'Monoton', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Titan One', cursive;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px black;
+}
+@media (max-width: 775px) {
+ 
+    /* For desktop: */
+    #navbar{
+        font-size: 1.2rem;
+
+    }
+    #container{
+        margin: 0;
+    }
+}
+@media (max-width:460px){
+    /* for l size mobile  */
+    /* #container{background-color: yellow;} */
+    #atTime{
+        font-size: 2rem;
+    }
+ #navbar{
+        font-size: 0.7rem;
+        height: 1.4rem;
+    }
+    #formInput{
+        height: 1rem;
+        width: 6rem;
+    }
+  
+}
+@media (max-width:375px) {
+ 
+  
+    #remainTime{
+        font-size: 6rem;
+    }
+
+}
+@media (max-width:320px) {
+ 
+  #container  {
+    background-color: #4ca;
+
+
+
+    }
+    #remainTime{
+        font-size: 3rem;
+    }
+
+}
